@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		6C2110931FE5217600DC6135 /* NSString+iconv.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+iconv.m */; };
 		OBJ_28 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_34 /* Sample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Sample2Tests.swift */; };
 		OBJ_36 /* Sample2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Sample2::Sample2::Product" /* Sample2.framework */; };
@@ -120,7 +121,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -128,7 +129,6 @@
 				OBJ_16 /* Tests */,
 				OBJ_19 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -208,14 +208,14 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "sample2" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Sample2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +250,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_46 /* sampleHoge.swift in Sources */,
+				6C2110931FE5217600DC6135 /* NSString+iconv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_2 /* Build configuration list for PBXProject "sample2" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Sample2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
