@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import CSample2
 
 public func do_hoge() {
-    // これがインポートできない
-    NSString.hoge()
+    let data = Data.init(bytes: [0x82, 0xA0]) // SJIS で "あ"
+    _ = NSString.init(byDefaultEncodingWith: data)
 }

@@ -1,0 +1,5 @@
+module CSample2 {
+    header "CSample2.h"
+    link "iconv"
+    export *
+}
