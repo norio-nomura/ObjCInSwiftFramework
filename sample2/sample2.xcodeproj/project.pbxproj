@@ -56,7 +56,6 @@
 		OBJ_12 /* NSString+iconv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+iconv.h"; sourceTree = "<group>"; };
 		OBJ_15 /* sampleHoge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleHoge.swift; sourceTree = "<group>"; };
 		OBJ_18 /* Sample2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2Tests.swift; sourceTree = "<group>"; };
-		OBJ_19 /* sample2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample2; sourceTree = SOURCE_ROOT; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* NSString+iconv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+iconv.m"; sourceTree = "<group>"; };
 		"Sample2::Sample2::Product" /* Sample2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sample2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,17 +136,15 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_16 /* Tests */,
-				OBJ_19 /* sample2 */,
 				OBJ_20 /* Products */,
 				6C2110861FE50A7600DC6135 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -247,7 +244,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
