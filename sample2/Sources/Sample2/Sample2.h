@@ -6,7 +6,7 @@
 //  Copyright © 2017年 sonson. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for sample2.
 FOUNDATION_EXPORT double sample2VersionNumber;
@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char sample2VersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <sample2/PublicHeader.h>
 
-
+#import <Sample2/NSString+iconv.h>

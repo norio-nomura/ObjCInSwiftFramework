@@ -24,7 +24,7 @@
 
 @interface NSString(iconv)
 
-+ (NSString*)stringByDefaultEncodingWithData:(NSData *)data;
++ (NSString *)stringByDefaultEncodingWithData:(NSData *)data;
 + (NSString *)stringWithData:(NSData *)data iconvEncoding:(NSString *)encodingString;
 
 @end
