@@ -54,7 +54,7 @@
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* NSString+iconv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+iconv.m"; sourceTree = "<group>"; };
 		"Sample2::Sample2::Product" /* Sample2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sample2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Sample2::Sample2Tests::Product" /* Sample2Tests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Sample2::Sample2Tests::Product" /* Sample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Sample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,7 +325,6 @@
 				INFOPLIST_FILE = Sample2.xcodeproj/Sample2Tests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CSample2/include/module.modulemap";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Sample2Tests;
 			};
@@ -346,7 +345,6 @@
 				INFOPLIST_FILE = Sample2.xcodeproj/Sample2Tests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CSample2/include/module.modulemap";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Sample2Tests;
 			};
@@ -387,7 +385,6 @@
 				INFOPLIST_FILE = Sample2.xcodeproj/Sample2_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CSample2/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Sample2;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -412,7 +409,6 @@
 				INFOPLIST_FILE = Sample2.xcodeproj/Sample2_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CSample2/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Sample2;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
